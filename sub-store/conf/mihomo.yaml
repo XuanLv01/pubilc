@@ -149,4 +149,4 @@ rules:
   - RULE-SET,telegramcidr,🚀 节点选择
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,🚀 节点选择
+  - MATCH,🐟 漏网之鱼
