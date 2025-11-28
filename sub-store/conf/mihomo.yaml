@@ -117,13 +117,13 @@ proxy-groups:
   - type: select
     name: 🚀 节点选择
     include-all: true
-    exclude-type: socks5
+    exclude-type: Socks5
     proxies:
       - ⚡ 自动选择
   - name: ⚡ 自动选择
     type: url-test
     include-all: true
-    exclude-type: socks5
+    exclude-type: Socks5
     url: https://www.gstatic.com/generate_204
     interval: 300
     lazy: false
