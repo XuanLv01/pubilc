@@ -119,14 +119,20 @@ proxy-groups:
     include-all: true
     exclude-type: Socks5
     proxies:
-      - ⚡ 自动选择
-  - name: ⚡ 自动选择
+      - ♻️ 自动选择
+  - name: ♻️ 自动选择
     type: url-test
     include-all: true
     exclude-type: Socks5
     url: https://www.gstatic.com/generate_204
     interval: 300
     lazy: false
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - REJECT
 rules:
   - RULE-SET,applications,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
