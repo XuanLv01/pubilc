@@ -190,6 +190,9 @@ proxy-groups:
       - DIRECT
       - REJECT
 rules:
+  - IP-CIDR,154.29.150.60/32,DIRECT
+  - IP-CIDR,151.242.164.168/32,DIRECT
+  - IP-CIDR,154.40.32.76/32,DIRECT
   - RULE-SET,applications,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
   - DOMAIN,yacd.haishan.me,DIRECT
